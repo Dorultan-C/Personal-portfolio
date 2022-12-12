@@ -1,5 +1,4 @@
 $primary-color: #111e3f;
-$secondary-color: #111e3f;
 $accent-color: #ff652f;
 $text-color: #fff;
 
@@ -22,7 +21,7 @@ $text-color: #fff;
 }
 
 @mixin media-md {
-  @media screen and (min-width: 1300px) {
+  @media screen and (min-width: 1000px) {
     @content;
   }
 }
