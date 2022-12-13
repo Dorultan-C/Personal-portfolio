@@ -355,6 +355,24 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+  }
+  .about .social-icons {
+    bottom: 10px;
+    left: 10px;
+  }
+  .about .text-bio {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
 }
 body {
   background: #111e3f;

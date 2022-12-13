@@ -59,4 +59,27 @@
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+
+    .jobs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 60%;
+    }
+
+    .social-icons {
+     bottom: 10px;
+     left: 10px;
+    }
+
+    .text-bio {
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
+
+  }
 }
