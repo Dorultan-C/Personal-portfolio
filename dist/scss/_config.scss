@@ -25,3 +25,8 @@ $text-color: #fff;
     @content;
   }
 }
+@mixin media-smartphone {
+  @media screen and (min-width: 100px) and (max-width: 999px) {
+    @content;
+  }
+}

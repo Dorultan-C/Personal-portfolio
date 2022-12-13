@@ -49,3 +49,14 @@
   
 }
 
+@include media-smartphone {
+  .home__name {
+    font-size: 2rem;
+    color: $text-color;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
